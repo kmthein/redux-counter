@@ -30,6 +30,7 @@ const Counter = () => {
         {
             isShow && <p className='counter'>{counter}</p>
         }      
+        
         <div className='btn-div'>
             <button onClick={decreaseHandler}>Decrease</button>
             <button onClick={increasedBy5}>Increase By 5</button>
